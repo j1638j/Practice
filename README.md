@@ -1,12 +1,9 @@
+< HEAD
 # GitPractice
 This is me practicing how to use Git
 
 
-					<h1>BASIC COMMANDS</h1>
-
-
-
-					<h2>LOCAL</h2>
+					<h1>BASIC COMMANDS					<h2>LOCAL</h2>
 
 
 $ git init 
@@ -72,35 +69,9 @@ $ git checkout <branchName>
 // Make sure to commit everything before switching
 
 $ git merge <branch>
-// Merge the branch to current branch
-
-
-
-
-
+// Merge the branch to current br
 
  				<h2>REMOTE REPOSITORIES</h2>
 
 
-$ git push 
-
-// Push to remote repository
-// Take local repository and push it to a remote repository (i.e. github)
-// Have to add a remote service and credentials in advance
-
-$ git push -u origin master
-// Push to remote repository for the first time
-
-
-
-$ git pull 
-// Pull latest from remote repository
-
-$ git clone
-// Clone repository into a new directory
-
-$ git remote
-// Shows all the remote repositories
-
-$ git remote add origin <remote repository address>
-// Address can be found @github
+$ git
