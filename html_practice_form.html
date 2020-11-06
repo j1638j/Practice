@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Demo</title>
+</head>
+
+<body>
+    <h1>Forms Demo</h1>
+
+    <form action="/tacos">
+
+        <button type="button">Not submitting yet</button>
+
+        <p>
+        <h2>Text Input</h2>
+        <input type="text" name="text">
+        </p>
+
+        <p>
+        <h2>Color Input</h2>
+        <!--can't have placeholer-->
+        <label for="color">What's your favorite color? </label>
+        <input type="color" id="color" name="color">
+        </p>
+
+        <p>
+        <h2>Number Input</h2>
+        <input type="number" name="number">
+        </p>
+
+        <p>
+        <h2>Time Picker</h2>
+        <input type="time" name="time">
+        </p>
+
+        <p>
+        <h2>Username</h2>
+        <label for="username">Enter a Username: </label>
+        <input type="text" placeholder="username" id="username" name="username">
+        </p>
+
+        <p>
+        <h2>Password Input</h2>
+        <label for="password">Enter a Password: </label>
+        <input type="password" placeholder="password" id="password" name="password">
+        </p>
+
+        <button>Button Submit</button>
+
+        <!-- works the same as <button>, but needs 'value' attribute -->
+        <input type="submit" value="input submit" name="input submit">
+
+    </form>
+
+    <hr>
+
+    <form action="https://www.ecosia.org/search">
+        <h2>Search Ecosia</h2>
+        <input type="text" name="q">
+        <button>Search Ecosia</button>
+    </form>
+
+    <form action="https://www.youtube.com/results">
+        <h2>Search Youtube</h2>
+        <input type="text" name="search_query">
+        <button>Search Youtube</button>
+    </form>
+
+    <h2>More Inputs</h2>
+
+    <form action="/birds">
+        <p>
+            <input type="checkbox" name="agree_tos" id="agree" checked>
+            <label for="agree">I agree to everything.</label>
+        </p>
+
+        <p>
+            <label for="small">Small: </label>
+            <input type="radio" name="size" id="small" value="small size">
+            <br>
+
+            <label for="medium">Medium: </label>
+            <input type="radio" name="size" id="medium" value="medium size">
+            <br>
+
+            <label for="large">Large: </label>
+            <input type="radio" name="size" id="large" value="large size">
+            <br>
+        </p>
+
+        <p>
+            <label for="">What's your favorite cat breed? : </label>
+            <select name="cat breed" id="breed">
+                <option value="">--Please choose an option--</option>
+                <option value="Korean Shorthair">Korean Shorthair</option>
+                <option value="American Shorthair">American Shorthair</option>
+                <option value="Abyssinian">Abyssinian</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="food">Amount of cat food</label>
+            <input type="range" id="food" min="30" max="100" step="10" name="cat_food">
+        </p>
+
+        <p>
+            <label for="request">Any special requests?</label> <br>
+            <textarea name="requests" placeholder="Enter requests here." id="request" cols="50" rows="30"></textarea>
+        </p>
+
+        <button>Submit</button>
+    </form>
+
+
+</body>
+
+</html>
