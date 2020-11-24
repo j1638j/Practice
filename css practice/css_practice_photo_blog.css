@@ -1,0 +1,16 @@
+img {
+    width: 30%;
+    margin: calc(10%/6);
+}
+
+nav {
+
+    font-family: VT323, sans-serif;
+    font-size: 2em;
+    width: 30%;
+    text-transform: uppercase;
+    border-bottom: 2px solid #f1f1f1;
+    margin-left: calc(10%/6);
+    padding: 0.6em 0;
+
+}
