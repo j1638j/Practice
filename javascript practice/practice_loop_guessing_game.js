@@ -8,10 +8,13 @@ const targetNum = Math.floor(Math.random() * maximum) + 1;
 console.log('Your maximum number is: ' + targetNum);
 
 let guess = prompt("Enter your guess.");
+let attempts = 1;
+
 if (!parseInt(guess)) {
     guess = prompt("The number is invalid. Enter your guess again.");
 } else {
     while (parseInt(guess) !== targetNum) {
+        attempts++;
         if (parseInt(guess) < targetNum) {
             guess = prompt("The number is too small. Enter your guess again.");
         } else {
@@ -19,5 +22,5 @@ if (!parseInt(guess)) {
         }
     }
 
-    alert("Congrats! You got the right number!");
+    alert(`Congrats! It took ${attempts} times.`);
 }
