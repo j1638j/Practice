@@ -24,11 +24,11 @@ function addScore(player) {
         p1Btn.disabled = true;
         p2Btn.disabled = true;
         if (p1Score == playToValue) {
-            p1Display.style.color = 'green';
-            p2Display.style.color = 'red'
+            p1Display.classList.add('has-text-success')
+            p2Display.classList.add('has-text-danger')
         } else {
-            p1Display.style.color = 'red';
-            p2Display.style.color = 'green'
+            p1Display.classList.add('has-text-success')
+            p2Display.classList.add('has-text-danger')
         }
     }
 
@@ -48,6 +48,8 @@ resetBtn.addEventListener('click', () => {
     p2Display.innerText = 0;
     p1Display.style.color = 'black';
     p2Display.style.color = 'black';
+    p1Display.classList.remove('has-text-success', 'has-text-danger');
+    p2Display.classList.remove('has-text-success', 'has-text-danger');
 
     //make buttons clickable again
     p1Btn.disabled = false;
