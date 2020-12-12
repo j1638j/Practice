@@ -23,6 +23,13 @@ function addScore(player) {
         //make buttons unclickable
         p1Btn.disabled = true;
         p2Btn.disabled = true;
+        if (p1Score == playToValue) {
+            p1Display.style.color = 'green';
+            p2Display.style.color = 'red'
+        } else {
+            p1Display.style.color = 'red';
+            p2Display.style.color = 'green'
+        }
     }
 
 }
@@ -39,6 +46,8 @@ resetBtn.addEventListener('click', () => {
     p2Score = 0;
     p1Display.innerText = 0;
     p2Display.innerText = 0;
+    p1Display.style.color = 'black';
+    p2Display.style.color = 'black';
 
     //make buttons clickable again
     p1Btn.disabled = false;
