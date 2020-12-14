@@ -56,5 +56,3 @@ resetBtn.addEventListener('click', () => {
     p2Btn.disabled = false;
 
 })
-
-
