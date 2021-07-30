@@ -135,18 +135,22 @@ HTML, CSS, JavaScript, Node.js, EJS, Git 등을 연습했습니다.
 
 ![scorekeeper](https://user-images.githubusercontent.com/63030905/127616716-db58705a-dfee-429b-b7da-c97ea3104f4c.png)
 
+<br>
+<br>
+<br>
 
 # TV Show Search
 강의 내의 클론 코딩 토이 프로젝트입니다. TV Maze의 API와 Axios를 이용해서 TV 프로그램을 검색하는 웹페이지입니다.
   
 ### 주요 기능
-1. TV 프로그램 검색
+1. API로 TV 프로그램 검색
 2. 검색된 프로그램 이미지 표시
 
 ### 기술 스택
 1. HTML
 2. JavaScript
 3. Axios
+4. TV Maze API
   
 <br>
 <br>
