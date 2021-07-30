@@ -79,7 +79,7 @@ HTML, CSS, JavaScript, Node.js, EJS, Git 등을 연습했습니다.
 <br>
 
 ## 캠프장 생성
-![new](https://user-images.githubusercontent.com/63030905/127596682-ecfe101b-a2f1-4bdc-9b32-1a8f31029aa6.png)
+![new](https://user-images.githubusercontent.com/63030905/127596963-024242dd-077b-485e-9242-d5b510b43e1d.png)
 
 <br>
 <br>
