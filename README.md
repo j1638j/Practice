@@ -1,8 +1,7 @@
 # Practice
 <p>Udemy의 'The Web Developer Bootcamp' 강의를 들으며 공부하고 정리한 내용입니다.</p>
 <p>HTML, CSS, JavaScript, Node.js, EJS, Git 등을 연습했습니다.</p>
-<p>아래는 강의를 들으며 완성한 프로젝트를 정리해 놓았습니다.</
-
+<p>아래는 강의를 들으며 완성한 프로젝트를 정리해 놓았습니다.</p>
 
 <br>
 <br>
