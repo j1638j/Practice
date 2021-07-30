@@ -4,6 +4,12 @@ HTML, CSS, JavaScript, Node.js, EJS, Git 등을 연습했습니다.
 
 <br>
 <br>
+
+## Index
+1. [YelpCamp](#YelpCamp)
+
+<br>
+<br>
 <br>
 
 # YelpCamp
@@ -42,6 +48,7 @@ HTML, CSS, JavaScript, Node.js, EJS, Git 등을 연습했습니다.
 
 ## 홈페이지
 ![home](https://user-images.githubusercontent.com/63030905/127596164-1413c5ac-1624-4609-bb53-ef64f8cc9002.png)
+* 로그인 전에는 NavBar에 <Login>, <Register> 버튼이 나타나고, 로그인 후에는 <Logout> 버튼이 나타납니다.
 
 <br>
 <br>
@@ -58,6 +65,7 @@ HTML, CSS, JavaScript, Node.js, EJS, Git 등을 연습했습니다.
 
 ## 회원가입
 ![register](https://user-images.githubusercontent.com/63030905/127596664-8f9aae5a-ad11-4eac-b363-1fed8848a06f.png)
+* Passpost.js를 이용하여 회원가입 기능을 구축하였습니다.
 
 <br>
 <br>
@@ -65,14 +73,20 @@ HTML, CSS, JavaScript, Node.js, EJS, Git 등을 연습했습니다.
 
 ## 로그인
 ![login](https://user-images.githubusercontent.com/63030905/127596673-66dd1e1d-fb70-475e-9a88-c4213de85a43.png)
+* Passport.js를 이용하여 로그인 기능을 구축하였습니다.
 
 <br>
 <br>
 <br>
 
 ## 개별 캠프장 페이지
+#### 타 유저의 캠프장
 ![show-login](https://user-images.githubusercontent.com/63030905/127596699-50850a5b-0212-45f7-988e-8758286e1cb4.png)
+#### 내 캠프장
 ![show-mine](https://user-images.githubusercontent.com/63030905/127596704-c37ee9d3-4fa7-4a8e-9855-11471fceb907.png)
+* 별점과 리뷰를 남길 수 있습니다
+* 로그인 전에는 리뷰 textarea가 나타나지 않습니다.
+* 내 캠프장인 경우에만 <edit>, <delete> 버튼이 나타납니다.
 
 <br>
 <br>
@@ -80,6 +94,7 @@ HTML, CSS, JavaScript, Node.js, EJS, Git 등을 연습했습니다.
 
 ## 캠프장 생성
 ![new](https://user-images.githubusercontent.com/63030905/127596963-024242dd-077b-485e-9242-d5b510b43e1d.png)
+* 캠프장을 생성합니다. Mongoose Model을 이용하여 작업했습니다.
 
 <br>
 <br>
@@ -87,4 +102,6 @@ HTML, CSS, JavaScript, Node.js, EJS, Git 등을 연습했습니다.
 
 ## 캠프장 수정
 ![edit](https://user-images.githubusercontent.com/63030905/127596707-9cf4a280-bdd1-4b44-b061-23ac00656cfb.png)
+* 캠프장을 수정합니다. 
+* 내 캠프장이 아닌 경우에는 flash를 이용하여 권한 없음을 표시합니다.
 
