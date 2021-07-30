@@ -7,6 +7,7 @@ HTML, CSS, JavaScript, Node.js, EJS, Git 등을 연습했습니다.
 
 ## Index
 1. [YelpCamp](#YelpCamp)
+2. [Score Keeper](#Score-Keeper)
 
 <br>
 <br>
@@ -108,3 +109,28 @@ HTML, CSS, JavaScript, Node.js, EJS, Git 등을 연습했습니다.
 * 캠프장을 수정합니다. 
 * 내 캠프장이 아닌 경우에는 flash를 이용하여 권한 없음을 표시합니다.
 
+  
+<br>
+<br>
+<br>
+
+# Score Keeper
+강의 내의 클론 코딩 토이 프로젝트 입니다. 탁구 경기의 점수를 기록할 수 있는 웹페이지입니다. 
+  
+### 주요기능
+1. 두 플레이어의 점수 기록
+2. 점수 리셋
+3. 승리 기준을 설정할 수 있습니다.
+  
+### 기술 스택
+1. HTML 
+2. CSS / Bootstrap
+3. JavaScript
+  
+<br>
+<br>
+
+## ScreenShots
+![scorekeeper](https://user-images.githubusercontent.com/63030905/127616716-db58705a-dfee-429b-b7da-c97ea3104f4c.png)
+
+ 
