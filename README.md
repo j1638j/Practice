@@ -8,6 +8,7 @@ HTML, CSS, JavaScript, Node.js, EJS, Git 등을 연습했습니다.
 ## Index
 1. [YelpCamp](#YelpCamp)
 2. [Score Keeper](#Score-Keeper)
+3. [TV Show Search](#TV-Show-Search)
 
 <br>
 <br>
@@ -120,7 +121,7 @@ HTML, CSS, JavaScript, Node.js, EJS, Git 등을 연습했습니다.
 ### 주요기능
 1. 두 플레이어의 점수 기록
 2. 점수 리셋
-3. 승리 기준을 설정할 수 있습니다.
+3. 승리 기준을 설정
   
 ### 기술 스택
 1. HTML 
@@ -130,7 +131,27 @@ HTML, CSS, JavaScript, Node.js, EJS, Git 등을 연습했습니다.
 <br>
 <br>
 
-## ScreenShots
+## ScreenShot
+
 ![scorekeeper](https://user-images.githubusercontent.com/63030905/127616716-db58705a-dfee-429b-b7da-c97ea3104f4c.png)
 
- 
+
+# TV Show Search
+강의 내의 클론 코딩 토이 프로젝트입니다. TV Maze의 API와 Axios를 이용해서 TV 프로그램을 검색하는 웹페이지입니다.
+  
+### 주요 기능
+1. TV 프로그램 검색
+2. 검색된 프로그램 이미지 표시
+
+### 기술 스택
+1. HTML
+2. JavaScript
+3. Axios
+  
+<br>
+<br>
+
+## Screenshot
+  
+![TV show search](https://user-images.githubusercontent.com/63030905/127617476-b27807ed-b3ae-47e7-8d03-fc38bd3194de.png)
+* 'new'라는 키워드로 검색한 결과입니다.
