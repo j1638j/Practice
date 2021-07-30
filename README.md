@@ -27,7 +27,8 @@ HTML, CSS, JavaScript, Node.js, EJS, Git 등을 연습했습니다.
 3. MongoDB / Mongoose
 4. EJS
 5. HTML / CSS / Bootstrap / Vanilla JavaScript
-6. Deploy: Heroku
+6. Mapbox API
+7. Deploy: Heroku
 
 <br>
 <br>
@@ -58,6 +59,7 @@ HTML, CSS, JavaScript, Node.js, EJS, Git 등을 연습했습니다.
 ![index1](https://user-images.githubusercontent.com/63030905/127596222-23982fdb-7c28-4dd7-aafe-1695c75c0d49.png)
 * 존재하는 캠프장의 목록을 보여줍니다.
 * <View> 버튼을 누르면 [개별 캠프장 페이지](#개별-캠프장-페이지)로 이동합니다.
+* Mapbox API를 이용하여 지도에 캠프장 클러스터를 보여줍니다.
 
 <br>
 <br>
@@ -85,6 +87,7 @@ HTML, CSS, JavaScript, Node.js, EJS, Git 등을 연습했습니다.
 #### 내 캠프장
 ![show-mine](https://user-images.githubusercontent.com/63030905/127596704-c37ee9d3-4fa7-4a8e-9855-11471fceb907.png)
 * 별점과 리뷰를 남길 수 있습니다
+* Mapbox API를 이용하여 지도를 보여줍니다.
 * 로그인 전에는 리뷰 textarea가 나타나지 않습니다.
 * 내 캠프장인 경우에만 <edit>, <delete> 버튼이 나타납니다.
 
