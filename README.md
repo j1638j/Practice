@@ -126,7 +126,7 @@
   
 ### 기술 스택
 1. HTML 
-2. CSS / Bootstrap
+2. CSS / Bulma
 3. JavaScript
   
 <br>
